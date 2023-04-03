@@ -1,12 +1,12 @@
 @font-face {
-  font-family: 'Poppins';
-  src: url('../public/Poppins-SemiBold.ttf') format('ttf');
+  font-family: Poppins;
+  src: url('./Poppins/Poppins-SemiBold.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: druk;
-  src: url('../public/Druk-Wide-Bold.ttf') format('ttf');
+  src: url('./Druk/Druk Wide Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
