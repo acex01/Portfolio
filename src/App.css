@@ -11,6 +11,12 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: Montserrat;
+  src: url('../public/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
 .App {
   display:flex;
   flex-direction:column;
