@@ -12,21 +12,21 @@ const projects = [
     name: "Echo",
     feature: "UX • Research",
     image: echo,
-    text: "The independent game developer Techyonic has formally announced the arrival of An Elmwood Trail, a text-based RPG, on iOS and Android.",
+    text: "Echo was a physical prototype enabled by an app to assisst the visually impaired in their day to day activities. It was a part of the course Designing Processes and Perspectives.",
   },
   {
     year: "2021",
     name: "UniPal",
     feature: "UI/UX • HCI • Figma",
     image: unipal,
-    text: "agam",
+    text: "An app that aims to help college students navigate through their college life with ease and convenience, knowing that our app will be by their side.",
   },
   {
     year: "2023",
     name: "T-Shirts",
     feature: "Ps • Ai • Figma",
     image: tshirti,
-    text: "The independent game developer Techyonic has formally announced the arrival of An Elmwood Trail, a text-based RPG, on iOS and Android.",
+    text: "I was tasked with designing T-shirts for various clubs in our college. I designed 3 T-shirts 1 for d4rkc0de, 1 for DesignHub and 1 for Trivialis.",
   },
 ];
 
@@ -87,21 +87,15 @@ export default function Page2() {
         alt="left"
         style={{
           position: "absolute",
-          right: 350,
-          bottom: -30,
+          right: 330,
+          bottom: "-104px",
           width: "24px",
           height: "320px",
           transform: "rotate(90deg)",
         }}
       />{" "}
       {image && <img src={image} alt="no" id="projimg" />}
-      {text && (
-        <p id="projdesc">
-          An app that aims to help college students navigate through their
-          college life with ease and convenience, knowing that our app will be
-          by their side.
-        </p>
-      )}
+      {text && <p id="projdesc">{text}</p>}
       <img src={bottom} alt="globe" className="globeb" />
     </>
   );

@@ -323,6 +323,8 @@ function App() {
                         aboutRef.current.scrollIntoView({
                           behavior: "smooth",
                         });
+                      } else if (item === "Contact") {
+                        window.open("mailto:agamaap01@gmail.com", "_blank");
                       }
                     }}
                   >
