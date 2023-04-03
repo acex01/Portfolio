@@ -389,9 +389,11 @@
 
 #projdesc {
   position:absolute;
+  font-family:"Poppins";
+  font-size: 20px;
   width: 20%;
-  top: 52%;
-  right: 2%;
+  top: 44%;
+  right: 10%;
   animation: 500ms ease-out 0s 1 slideInFromLeft;
 }
 
@@ -419,9 +421,11 @@
 
 .about-title-text {
   margin:0;
+  margin-top:-35px;
+  margin-left:50px;
   font-family: druk;
-  font-size: 50px;
-  font-weight: 800;
+  font-size: 80px;
+  font-weight: 900;
   color: red;
   line-height:1.1;
 }
@@ -429,7 +433,7 @@
 .about-description {
   margin:0;
   font-family: druk;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 800;
   color: white;
   line-height:1.1;
@@ -441,16 +445,17 @@
 }
 
 #about-photo {
+  margin-bottom:-10px;
   position: absolute;
   bottom: 0;
   left: 0;
   display:flex; 
   flex-direction: column;
   align-self: flex-end;
-  padding:80px 70px;
+  padding:80px 0px;
   padding-bottom: 20px;
   height:calc(70% - 100px);
-  width:calc(43% - 140px);
+  width:calc(43% - 80px);
   border-top-right-radius: 120px;
   border: 1px solid #FFFFFF;
   border-bottom: none;
@@ -458,7 +463,9 @@
 }
 
 #about-photo img {
-  height: 95%;
+  margin-left:90px;
+  margin-top:-10px;
+  height: 85%;
   object-fit: contain;
 }
 

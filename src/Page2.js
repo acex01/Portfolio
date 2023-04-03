@@ -19,7 +19,7 @@ const projects = [
     name: "UniPal",
     feature: "UI/UX • HCI • Figma",
     image: unipal,
-    text: "The independent game developer Techyonic has formally announced the arrival of An Elmwood Trail, a text-based RPG, on iOS and Android.",
+    text: "agam",
   },
   {
     year: "2023",
@@ -97,8 +97,9 @@ export default function Page2() {
       {image && <img src={image} alt="no" id="projimg" />}
       {text && (
         <p id="projdesc">
-          The independent game developer Techyonic has formally announced the
-          arrival of An Elmwood Trail, a text-based RPG, on iOS and Android.
+          An app that aims to help college students navigate through their
+          college life with ease and convenience, knowing that our app will be
+          by their side.
         </p>
       )}
       <img src={bottom} alt="globe" className="globeb" />
