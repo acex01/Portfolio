@@ -1,7 +1,6 @@
 {
   "name": "reactfirst",
   "version": "0.1.0",
-  "homepage": "https://acex01.github.io/Portfolio",
   "dependencies": {
     "@react-spring/web": "^9.7.1",
     "@testing-library/jest-dom": "^5.16.5",
